@@ -1,0 +1,6 @@
+# Configuration for Synesthesia Engine
+backend:
+  host: localhost
+  port: 8765
+themes:
+  - synthwave
