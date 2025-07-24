@@ -1,1 +1,5 @@
-# bpm_sync.py
+"""
+BPM sync plugin.
+"""
+
+# TODO: Define plugin behavior

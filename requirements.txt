@@ -1,4 +1,6 @@
-pyyaml
-psutil
 watchdog
+psutil
+asyncio
 websockets
+pynput
+PyYAML

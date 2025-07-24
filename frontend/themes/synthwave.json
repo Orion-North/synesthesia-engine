@@ -1,1 +1,5 @@
-# synthwave.json
+{
+  "background": "#2E044C",
+  "particleColor": "#FF6EC7",
+  "audioSync": true
+}

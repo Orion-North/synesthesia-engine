@@ -1,6 +1,5 @@
-# Configuration for Synesthesia Engine
-backend:
-  host: localhost
-  port: 8765
-themes:
-  - synthwave
+# YAML configuration for Synesthesia Engine
+pipeline:
+  - observer
+  - metrics
+  - server

@@ -1,1 +1,5 @@
-# glitch_filter.py
+"""
+Glitch filter plugin.
+"""
+
+# TODO: Define plugin behavior
