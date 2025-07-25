@@ -1,5 +1,27 @@
-# YAML configuration for Synesthesia Engine
-pipeline:
-  - observer
-  - metrics
-  - server
+# config.yml
+
+# Server settings
+server:
+  host: "127.0.0.1"
+  port: 8000
+
+# Where to serve static frontend files from
+frontend:
+  static_dir: "frontend"
+
+# Which plugins to load (must match filenames in backend/plugins)
+plugins:
+  - glitch_filter
+  - bpm_sync
+
+# File observer settings
+observer:
+  watch_paths:
+    - "./"
+
+# Metrics collection interval (seconds)
+metrics:
+  interval: 1
+
+# Logging level: DEBUG, INFO, WARNING, ERROR
+log_level: "INFO"

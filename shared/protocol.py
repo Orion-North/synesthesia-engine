@@ -1,5 +1,7 @@
-"""
-Protocol definitions between backend and frontend.
-"""
+from dataclasses import dataclass
+from typing import Any, Dict
 
-# TODO: Define message schemas
+@dataclass
+class Event:
+    type: str
+    payload: Dict[str, Any]

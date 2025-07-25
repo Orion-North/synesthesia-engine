@@ -1,0 +1,86 @@
+[
+  {
+    "type": "metric",
+    "cpu_percent": 5.0,
+    "memory_percent": 45.1,
+    "temperature": 40.0,
+    "_time": 0.0
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 15.3,
+    "memory_percent": 45.3,
+    "temperature": 42.5,
+    "_time": 1.0
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 25.6,
+    "memory_percent": 45.6,
+    "temperature": 45.0,
+    "_time": 2.0
+  },
+  {
+    "type": "fs_event",
+    "event_type": "modified",
+    "src_path": "frontend/vaporwave.js",
+    "is_directory": false,
+    "_time": 2.5
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 50.1,
+    "memory_percent": 46.0,
+    "temperature": 47.8,
+    "_time": 3.0
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 65.7,
+    "memory_percent": 47.2,
+    "temperature": 50.2,
+    "_time": 4.0
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 80.2,
+    "memory_percent": 48.1,
+    "temperature": 55.3,
+    "_time": 5.0
+  },
+  {
+    "type": "fs_event",
+    "event_type": "modified",
+    "src_path": "frontend/audio.js",
+    "is_directory": false,
+    "_time": 5.5
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 70.5,
+    "memory_percent": 49.0,
+    "temperature": 53.0,
+    "_time": 6.5
+  },
+  {
+    "type": "fs_event",
+    "event_type": "created",
+    "src_path": "frontend/demo.html",
+    "is_directory": false,
+    "_time": 8.2
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 55.3,
+    "memory_percent": 50.0,
+    "temperature": 51.0,
+    "_time": 8.5
+  },
+  {
+    "type": "metric",
+    "cpu_percent": 30.0,
+    "memory_percent": 48.5,
+    "temperature": 45.0,
+    "_time": 10.0
+  }
+]
